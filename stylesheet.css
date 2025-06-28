@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+ font-family:Arial, Helvetica, sans-serif;
+ color:#ffffff
+}
+ 
+.header-logo{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:20px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+.works-text {
+  display: inline-block;
+  margin-left: 40px; /* 任意で調整可能 */
+  letter-spacing: 10px;
+}
+ul{
+  font-size: 25px;
+}
+li{
+  list-style: none;
+}
+.contact-form{
+  padding-top: 20px;
+}
+img{
+  width:900px;
+}
+
+.top-wrapper{
+  padding: 200px 0 200px 0;
+  background-image:url(https://github.com/hachi1971/shop1/blob/main/bottle.PNG?raw=true);
+  background-size:cover;
+}
+.container h1{
+  color:#ffffff;
+  margin: 30px 50px 0 50px;
+  letter-spacing: 10px;
+}
+.contact-submit{
+  color: #ffffff;
+  font-size:20px;
+}
+
+a{
+  color:#ffffff;
+}
