@@ -61,14 +61,28 @@ a{
   width: 100%;     /* 親要素にフィット */
   height: auto;
 }
-
-.child {
+.parent:hover{
+transform: scale(1.1) rotate(5deg);
+}
+.child-one {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   font-weight: bold;
+  font-size: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  white-space: nowrap; /* 改行防止 */
+}
+.child-two {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
   white-space: nowrap; /* 改行防止 */
 }
